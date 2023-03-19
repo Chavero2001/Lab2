@@ -3,7 +3,7 @@
 Class, functions*/ 
 #include "pushbutton.h" //include the header file
 
-PushButton myButton(2); // create a new button object with pin 2
+PushButton myButton(10); // create a new button object with pin 2
 
 void setup() {
   Serial.begin(9600); // initialize serial communication
